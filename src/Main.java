@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task1");
-        String firstName = "Ivan ";
-        String middleName = "Ivanovich";
-        String lastName = " Ivanov";
-        String fullName = (firstName + middleName + lastName);
-        System.out.println(fullName);
-        System.out.println();
+        String firstName = " Ivan ";
+        String middleName = " Ivanovich ";
+        String lastName = " Ivanov ";
+        String fullName = (lastName + firstName + middleName );
+        System.out.println("Ф. И. О. сотрудника — " + fullName);
         System.out.println("Task2");
         System.out.println((firstName.toUpperCase() + middleName.toUpperCase() + lastName.toUpperCase()));
         System.out.println("Task3");
